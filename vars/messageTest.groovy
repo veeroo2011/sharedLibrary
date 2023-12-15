@@ -1,3 +1,3 @@
 def call() {
-  sh 'eho this is testing server'
+  sh 'echo this is testing server $hostname'
 }
